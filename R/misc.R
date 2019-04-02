@@ -3,7 +3,7 @@ days_to_years <- function(days)
   ceiling(days/365.25)
 
 
-pastef <- purrr::partial(...f = paste, sep = "/")
+pastef <- purrr::partial(.f = paste, sep = "/")
 
 
 syncr_fixed_paths <- function(from_folder_path, to_folder_path){
